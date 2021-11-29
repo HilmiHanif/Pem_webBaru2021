@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembuatan form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h2>formulir pendaftaran online ppdb jalur zonasi 2021</h2>
+        <table>
+            <thead>
+                <tr> 
+                    <th colspan="2">info pendaftaran</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><label for="nisn">NISN </label></td>
+                <td><input type="text" name="NISN" id="nisn" required></td>
+            </tr>
+            <tr>
+                <td><label for="sekolah">Asal Sekolah </label></td>
+                <td><input type="text" name="Asal Sekolah" id="sekolah" required></td>
+            </tr>
+            <tr>
+                <td><label for="tahunlulus">Tahun Lulus</label></td>
+                <td>
+                    <input type="number" name="Tahun Lulus" id="tahunlulus" required>
+                    <label for="lampiran">(Lampirkan foto copy ijazah)</label>
+                    <input type="file" name="fcijazah" id="lampiran" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><span lang="data">data calon peserta</span></td>
+            </tr>
+            <tr>
+                <td><label for="nama">Nama Lengkap</label></td>
+                <td><input type="text" name="Nama Lengkap" id="nama" required></td>
+            </tr>
+            <tr>
+                <td><label for="nik"></label>NIK</td>
+                <td><input type="number" name="NIK" id="nik" required></td>
+            </tr>
+            <tr>
+                <td><label for="tanggal">Tempat/Tanggal Lahir</label></td>
+                <td><input type="date" name="Tanggal Lahir" id="tanggal" required></td>
+            </tr>
+            <tr>
+                <td><label for="jeniskelamin">Jenis Kelamin</label></td>
+                <td>
+                    <input type="radio" name="Laki Laki" id="jeniskelamin"> Laki Laki
+                    <input type="radio" name="Perempuan" id="jeniskelamin"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td><textarea name="Alamat" id="alamat" cols="50" rows="5" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="provinsi">Provinsi</label></td>
+                <td>
+                    <select id="provinsi" required>
+                        <option value="">--Provinsi--</option>
+                        <option value="jawatengah">Jawa Tengah</option>
+                        <option value="jawabarat">Jawa Barat</option>
+                        <option value="jawatimur">Jawa Timur</option>
+                        <option value="jogya">DI Yogyakarta</option>
+                        <option value="banten">Banten</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kabupaten">Kabupaten</label></td>
+                <td>
+                    <Select id="kabupaten" required>
+                        <option value="">--Kabupaten--</option>
+                        <option value="Grobogan">Grobogan</option>
+                        <option value="Pemalang">Pemalang</option>
+                        <option value="Klaten">Klaten</option>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Karanganyar">Karanganyar</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kecamatan">Kecamatan</label></td>
+                <td>
+                    <Select id="kecamatan" required>
+                        <option value="">--Kecamatan--</option>
+                        <option value="Purwodadi">Purwodadi</option>
+                        <option value="Toroh">Toroh</option>
+                        <option value="Ambarawa">Ambarawa</option>
+                        <option value="Banyumas">Banyumas</option>
+                        <option value="Juwangi">Juwangi</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="deskel">Desa/Kel.</label></td>
+                <td>
+                    <Select id="deskel" required>
+                        <option value="">--Desa/kel--</option>
+                        <option value="Kalongan">Kalongan</option>
+                        <option value="Putat">Putat</option>
+                        <option value="sulur">sulur</option>
+                        <option value="Jeron">Jeron</option>
+                        <option value="Brambangan">Brambangan</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="Email" id="email" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <span lang="data">data orangtua</span>
+                </td>
+                <td>     
+                    <label for="kk">(Lampirkan KK)</label>
+                    <input type="file" name="lampirankk" id="kk" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="nkk">Nomor Kartu Keluarga</label></td>
+                <td><input type="number" name="NKK" id="nkk" required></td>
+            </tr>
+            <tr>
+                <td><label for="namaayah">Nama Ayah Kandung</label></td>
+                <td><input type="text" name="Nama Ayah Kandung" id="namaayah" required></td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agama</label></td>
+                <td><input type="text" name="Agama" id="agama" required></td>
+            </tr>
+            <tr>
+                <td><label for="pekerjaan">Pekerjaan</label></td>
+                <td><input type="text" name="Pekerjaan" id="pekerjaan" required></td>
+            </tr>
+            <tr>
+                <td><label for="namaibu">Nama Ibu Kandung</label></td>
+                <td><input type="text" name="Nama Ibu Kandung" id="namaibu" required></td>
+            </tr>
+            <tr>
+                <td><label for="agama">Agama</label></td>
+                <td><input type="text" name="Agama" id="agama" required></td>
+            </tr>
+            <tr>
+                <td><label for="pekerjaan">Pekerjaan</label></td>
+                <td><input type="text" name="Pekerjaan" id="pekerjaan" required></td>
+            </tr>
+            <tr>
+                <td><label for="alamatt">Alamat Orang Tua</label></td>
+                <td><textarea name="Alamat" id="alamatt" cols="50" rows="5" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="provinsii">Provinsi</label></td>
+                <td>
+                    <select id="provinsii" required>
+                        <option value="">--Provinsi--</option>
+                        <option value="jawatengah">Jawa Tengah</option>
+                        <option value="jawabarat">Jawa Barat</option>
+                        <option value="jawatimur">Jawa Timur</option>
+                        <option value="jogya">DI Yogyakarta</option>
+                        <option value="banten">Banten</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kabupatenn">Kabupaten</label></td>
+                <td>
+                    <Select id="kabupatenn" required>
+                        <option value="">--Kabupaten--</option>
+                        <option value="Grobogan">Grobogan</option>
+                        <option value="Pemalang">Pemalang</option>
+                        <option value="Klaten">Klaten</option>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Karanganyar">Karanganyar</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kecamatann">Kecamatan</label></td>
+                <td>
+                    <Select id="kecamatann" required>
+                        <option value="">--Kecamatan--</option>
+                        <option value="Purwodadi">Purwodadi</option>
+                        <option value="Toroh">Toroh</option>
+                        <option value="Ambarawa">Ambarawa</option>
+                        <option value="Banyumas">Banyumas</option>
+                        <option value="Juwangi">Juwangi</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="deskell">Desa/Kel.</label></td>
+                <td>
+                    <Select id="deskell" required>
+                        <option value="">--Desa/kel--</option>
+                        <option value="Kalongan">Kalongan</option>
+                        <option value="Putat">Putat</option>
+                        <option value="sulur">sulur</option>
+                        <option value="Jeron">Jeron</option>
+                        <option value="Brambangan">Brambangan</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span lang="data">pastikan anda sudah mengisi data dengan benar!!!</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="tombol" type="submit" value="Kirim Data">
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+    </form>
+    </div>
+</body>
+</html>

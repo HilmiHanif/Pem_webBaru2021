@@ -1,0 +1,49 @@
+body {
+    margin: 50px auto;
+    width: 800px;
+    height: auto;
+    border: 2px black solid;
+}
+
+.container {
+    border-collapse: collapse;
+    font-size: medium;
+}
+
+.container form h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.container table {
+    border-collapse: collapse;
+    margin: 5px 20px;
+}
+
+.container table thead th {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+[lang="data"] {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+table tr, table td{
+    padding: 12px 15px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 25px;
+}
+
+.tombol {
+    width: 100px;
+    height: 40px;
+}
+
